@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_satu"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_weight="1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                </ImageView>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/tv_satu"
+                        android:textColor="#000"
+                        android:textSize="12dp"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:hint="keterangan data"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_dua"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="12dp"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:hint="Ketrangan data "
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    </TextView>
+
+
+                </LinearLayout>
+                        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
