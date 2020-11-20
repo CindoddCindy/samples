@@ -77,7 +77,9 @@ public class FragmentSatu extends Fragment {
         recyclerView =view.findViewById(R.id.rv_ini);
        // recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(),LinearLayoutManager.HORIZONTAL,false));
 
-         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
+        // LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        //
 
 
         isiFrgamentSatuList = new ArrayList<>();
